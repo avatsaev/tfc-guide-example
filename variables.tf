@@ -13,3 +13,15 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+
+
+variable "AWS_ACCESS_KEY_ID" {
+  description = ""
+  default     = ""
+}
+
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = ""
+  default     = ""
+}
